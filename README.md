@@ -132,6 +132,6 @@ python -m uvicorn main:app --reload
 
 **ScholAI — Making expert college guidance accessible to every student.**
 
-Made with ❤️ by [Dhanaraj Aravius](https://github.com/dhanarajaravius-alt)
+Made by [Dhana](https://github.com/dhanarajaravius-alt)
 
 </div>
