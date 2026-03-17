@@ -98,6 +98,30 @@ The app has **4 fully functional modules:**
 
 ---
 
+## 🗺 System Architecture
+
+> Shows the 5-layer architecture — from the student's browser down to the external APIs.
+
+![System Architecture](diagram1.png)
+
+---
+
+## 🔄 Technical Workflow Diagram
+
+> Shows the complete data flow through ScholAI — user input → FastAPI → Claude LLM → data layer → output.
+
+| Layer | What happens |
+|---|---|
+| **User input** | Natural language query, filter sliders, student profile |
+| **UI + API flow** | FastAPI routes request to the right endpoint |
+| **LLM interaction** | Prompt built from profile + data, sent to Claude claude-sonnet-4-6 |
+| **Retrieval + data** | College dataset, Scorecard API fetched, context assembled |
+| **Output handling** | AI chat response, ranked college cards, major deep dive |
+
+![Technical Workflow](diagram2.png)
+
+---
+
 ## 🚀 Getting Started
 ```bash
 # 1. Clone the repo
